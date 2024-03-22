@@ -94,3 +94,46 @@
 	-> git log --author=" " --since="2024-03-19" --until="2024-03-20"
 	-> git log -n 2
 ------------------------------------------------------------------------------------------
+
+
+
+
+
+RIGHT TRAINGLE 
+def print_right_triangle(rows):
+    for i in range(1, rows + 1):
+        print("*" * i)
+
+print_right_triangle(5)
+
+
+
+
+
+
+INVERTED RIGHT TRIANGLE 
+def print_inverted_right_triangle(rows):
+    for i in range(rows, 0, -1):
+        print("*" * i)
+
+print_inverted_right_triangle(5)
+
+
+
+
+PYRAMID
+def print_pyramid(rows):
+    for i in range(1, rows + 1):
+        print(" " * (rows - i) + "*" * (2 * i - 1))
+
+print_pyramid(5)
+
+
+
+INVERTED PYRAMID
+def print_inverted_pyramid(rows):
+    for i in range(rows, 0, -1):
+        print(" " * (rows - i) + "*" * (2 * i - 1))
+
+print_inverted_pyramid(5)
+
